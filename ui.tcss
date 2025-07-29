@@ -1,0 +1,39 @@
+Screen {
+    /*layout: grid;
+    grid-size: 2;
+    grid-gutter: 2; */
+    padding: 0;
+    layers: bottom middle top;
+}
+
+Button {
+    # width: 100%;
+    # height: auto;
+    # width: auto;
+    layer: top;
+}
+.columns {
+    text-style: bold;
+    offset: 5 5;
+    margin: 0 0;
+    padding: 0 0;
+}
+.sidebar {
+    dock: left;
+    width: auto;
+    height: 100%;
+    color: #0f2b41;
+    padding: 1;
+    background: #333333;
+    # background: crimson;
+    # border: solid darkred;
+}
+LastTen {
+    width: auto;
+    height: auto;
+    margin: 0 0;
+    padding: 0 0;
+    background: $primary;
+    color: $text;
+    offset: 29 0;
+}
