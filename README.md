@@ -23,7 +23,7 @@ It contains following butttons.
 ### Quit
  - to exit gracefully ,i.e. , after closing the database connection
 
-## Command Pallete
+## Command Palette
 
 ### a
 mark all subjects absent which are in today's routine
@@ -33,3 +33,20 @@ mark all subjects present which are in today's routine
 
 ### h
 mark all subjects holiday which are in today's routine
+
+## Requirements
+
+`Python version >= 3.10 `
+
+`textual version >= 5`
+
+`sqlite3`
+
+To install textual 
+```bash
+pip install python
+```
+OR
+```bash
+pipx install python
+```

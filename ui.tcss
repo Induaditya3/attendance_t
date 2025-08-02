@@ -1,16 +1,17 @@
 Screen {
-    /*layout: grid;
-    grid-size: 2;
-    grid-gutter: 2; */
+    layout: grid;
+    grid-size: 3;
+    grid-columns: 1fr 2fr;
+    grid-gutter: 2; 
     padding: 0;
-    layers: bottom middle top;
+    # layers: bottom middle top;
 }
 
 Button {
-    # width: 100%;
+    # width: 90%;
     # height: auto;
-    # width: auto;
-    layer: top;
+    width: auto;
+    # layer: top;
 }
 .columns {
     text-style: bold;
@@ -20,10 +21,10 @@ Button {
 }
 .sidebar {
     dock: left;
-    width: auto;
+    width: 10;
     height: 100%;
     color: #0f2b41;
-    padding: 1;
+    padding: 0;
     background: #333333;
     # background: crimson;
     # border: solid darkred;
@@ -35,5 +36,5 @@ LastTen {
     padding: 0 0;
     background: $primary;
     color: $text;
-    offset: 29 0;
+    offset: 12 0;
 }
